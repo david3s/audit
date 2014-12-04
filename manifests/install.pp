@@ -1,6 +1,6 @@
 # Main installation manifest for auditd
 class audit::install {
-  package {'auditd':
+  package {'audit':
     ensure => 'installed',
   }
 }
